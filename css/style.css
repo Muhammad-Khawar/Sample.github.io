@@ -1,0 +1,65 @@
+header{
+    min-height:200px; 
+    background-color: #ff0000;
+}
+.my-logo{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.my-logo img{ 
+    padding-top: 30px;
+}
+.my-contact{ 
+    padding-right: 0px; 
+    max-width:300px; 
+    padding-top: 30px;
+}
+.my-contact span{
+    color:#fff; 
+    font-size: 36px;
+    display: block; 
+    text-align: center;
+}
+
+/* Responsive Code */
+@media (max-width:992px){
+
+    .my-logo{ 
+        text-align: center;
+    }
+
+    .my-logo img{
+        float:none!important;
+    }
+.my-contact{
+    float: none!important;
+    margin: auto;
+    margin-bottom: 20px;
+}
+}
+.products{
+    padding: 20px;
+    text-align: center;
+    background-color: #e6e5eb;
+}
+.my-footer{
+    background-color: black;
+    color: #ffff;
+    padding-top: 15px;
+}
+.my-footer span{
+    color: red;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    padding: 5px;
+    display: block;
+    color: #ffff;
+}
